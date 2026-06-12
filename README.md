@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./logo.jpg" width="96" height="96" alt="Marmo" />
-  <h1>@marmo/sdk</h1>
+  <h1>@marmoxyz/sui-kit</h1>
   <p><strong>Turn any storage drive into a hardware wallet shard.</strong></p>
   <p>An open-source threshold sharding kit for Sui. Split a wallet into shards and spend with any 2 of 3, with no single point of failure and no proprietary hardware.</p>
 </div>
@@ -20,7 +20,7 @@ Lose any one shard and the other two still work. Steal any one shard and it is u
 ## Install
 
 ```bash
-npm install @marmo/sdk @mysten/sui
+npm install @marmoxyz/sui-kit @mysten/sui
 ```
 
 ## Quick start
@@ -32,7 +32,7 @@ import {
   createClient,
   buildTransferSui,
   signAndSubmit,
-} from "@marmo/sdk";
+} from "@marmoxyz/sui-kit";
 
 const drive = Shard.create("drive");
 const server = Shard.create("server");

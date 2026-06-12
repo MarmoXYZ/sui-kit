@@ -1,5 +1,5 @@
 {
-  "name": "@marmo/sdk",
+  "name": "@marmoxyz/sui-kit",
   "version": "0.1.0",
   "description": "Open-source threshold sharding kit for Sui. Split a wallet into shards; spend with any 2 of 3.",
   "license": "MIT",
